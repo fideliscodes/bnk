@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "poppins";
+  src: url("/fonts/Poppins-Black.ttf") format('truetype');
+
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("/fonts/Lora-Medium.ttf") format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@theme{
+
+  --font-Lora: Lora;
+    --font-poppins :poppins, 'san-serif';
+    --color-bg:#fdebc8;
+    --color-special:#6c3b2a;
+    
+
+
+  
+  }
+.texts{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+body{
+  overflow-x: hidden;
+}
