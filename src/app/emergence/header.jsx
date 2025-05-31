@@ -21,7 +21,7 @@ const Header = () => {
     }, [])
     
   return (
-    <div ref={menuRef} className='flex justify-between px-3 py-2  w-full overflow-hidden z-4'>
+    <div ref={menuRef} className='flex justify-between px-5 py-2  w-full overflow-hidden z-4'>
 <div className='text-xl '>
     <h1 className='space-x-0 font-poppins uppercase'>emergence <span className='text-green-400'> media</span> </h1>
 </div>
