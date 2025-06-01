@@ -1,13 +1,12 @@
-import Header from "./emergence/header"
-import Hero from "./emergence/hero"
+import BnkHero from "./bnk/BnkHero"
+
 
 
 
 const page = () => {
   return (
     <>
-    <Header/>
-    <Hero/>
+<BnkHero/>
     </>
 
   )

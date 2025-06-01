@@ -24,9 +24,19 @@
 
   
   }
-.texts{
+.blockse{
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 body{
   overflow-x: hidden;
+}
+.header-items{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.counter{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+.h1{
+  font-size: 10vw;
 }
